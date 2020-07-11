@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app-deployment
+  namespace: flask
+  labels:
+    name : app-deployment
+spec:
+  selector:
+    matchLabels:
+      name: hello-app-pod
+  template:
+    metadata:
+      labels:
+        name: hello-app-pod
+    spec:
+      containers:
+        name: hello-app-container
+        image: lo219/flask-hello
