@@ -15,5 +15,5 @@ spec:
         name: hello-app-pod
     spec:
       containers:
-        name: hello-app-container
-        image: lo219/flask-hello
+        - name: hello-app-container
+          image: lo219/flask-hello
