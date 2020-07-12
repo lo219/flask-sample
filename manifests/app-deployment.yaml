@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
         - name: hello-app-container
-          image: lo219/flask-hello
+          image: lo219/flask-sample:alpha-1.0
