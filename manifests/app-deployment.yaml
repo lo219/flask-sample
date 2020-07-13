@@ -18,4 +18,4 @@ spec:
         - name: hello-app-container
           image: lo219/flask-sample:alpha-1.0
           ports:
-            - containerport: 8080      
+            - containerPort: 8080      
